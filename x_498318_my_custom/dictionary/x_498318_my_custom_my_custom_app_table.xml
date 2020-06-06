@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My Custom App Table" max_length="40" name="x_498318_my_custom_my_custom_app_table" sizeclass="0" type="collection">
+        <element label="My Integer Field" max_length="40" name="my_integer_field" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="My String Field" max_length="40" name="my_string_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_1" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Short discription" mandatory="true" max_length="125" name="u_short_discription" type="string"/>
+    </element>
+</database>
